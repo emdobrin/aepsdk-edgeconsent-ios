@@ -18,7 +18,7 @@ import Foundation
     /// Retrieves the current consent preferences stored in the Consent extension
     /// - Parameter completion: The completion handler is invoked with the current consent preferences and an optional error
     /// - Parameter consents:  The current consent preferences as `[String: Any]`
-    /// - Parameter error:  An `AEPError`  if an unexpected error occurs or the request timed out
+    /// - Parameter error:  An `AEPError` returned when an unexpected error occurs or the request timed out
     ///
     /// Output example:
     /// ```
